@@ -1,0 +1,16 @@
+- Target Customer: parents
+- Goal: To help parents to easily manage + analysis order, profits and requirements of their home kitchen business
+- v1 proposed functionality:
+    - Delivery Scheduling: (*)
+        - create/manage delivery schedule
+        - create/manage human capacity
+        - data can be used to analyze order distribution, food bias, etc
+    - Order Managing: (*)
+        - create/manage orders
+        - view past/coming orders assigned to different delivery schedule
+    - Inventory: (*)
+        - Shopping task managing:
+            - coordinate with order managing service to help parents understand needed ingredient
+            - help efficiently plan shopping tasks
+    - Data Analysis: (?)
+    - Cooking Scheduling: (?)
