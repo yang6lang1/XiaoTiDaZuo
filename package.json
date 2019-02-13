@@ -1,0 +1,42 @@
+{
+  "name": "familykitchenadmin",
+  "version": "1.0.0",
+  "description": "Cloud application that helps managing orders/deliveries for our family kitchen business",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang6lang1/XiaoTiDaZuo.git"
+  },
+  "author": "Alex Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yang6lang1/XiaoTiDaZuo/issues"
+  },
+  "homepage": "https://github.com/yang6lang1/XiaoTiDaZuo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "prop-types": "^15.7.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1"
+  }
+}
