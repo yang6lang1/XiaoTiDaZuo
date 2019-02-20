@@ -1,3 +1,37 @@
-.LoginPageHeader {
+.LoginForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.LoginFormSection {
+    width: 500px;
+    margin: auto;
+}
+
+.LoginFormTitle, .LoginFormSubtitle {
     text-align: center;
+}
+
+.LoginFormInputArea, .LoginFormInputButtonField {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.LoginFormUserNameField, .LoginFormPasswordField {
+    width: 100%;
+}
+
+.LoginFormPasswordField {
+    padding-top: 10px;
+}
+
+.LoginFormLoginButton {
+    width: 80%;
+    margin: auto !important;
+}
+
+.LoginFormInputButtonField {
+    padding-top: 10px;
+    display: flex;
 }
